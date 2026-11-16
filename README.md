@@ -101,7 +101,7 @@ flowchart LR
 ### Claude Code — every project
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/skill-pack.git
+git clone https://github.com/Techboidesig/fable-skill-pack.git
 mkdir -p ~/.claude/skills
 cp -R skill-pack/skills/* ~/.claude/skills/
 ```
@@ -137,20 +137,6 @@ Two ways. Both work.
 
 ---
 
-## ✏️ Make your own
-
-```markdown
----
-name: my-skill
-description: "What it does. Use for /my-skill or when the user says X."
----
-
-# My skill
-
-1. First do this.
-2. Then this.
-3. Report like this.
-```
 
 Three rules:
 
@@ -163,9 +149,7 @@ Three rules:
 ## ❓ FAQ
 
 **Does it need a specific model?** No. Plain instructions. Any model.
-
 **Do I need all 15?** No. Start with `orchestrator` + `verify-pass`.
-
 **Can I edit them?** Yes. They are text files.
 
 ---
